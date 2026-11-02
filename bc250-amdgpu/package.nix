@@ -42,6 +42,7 @@ kernel.stdenv.mkDerivation {
     ./patches/0013-ch7218-dsc-restore.patch
     ./patches/0014-pcon-force-dsc.patch
     ./patches/0015-bc250-psp-ccp.patch
+    ./patches/0016-amdgpu-vkms-edid.patch
   ];
 
   kernelDev = kernel.dev;
